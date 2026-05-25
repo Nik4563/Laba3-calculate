@@ -12,4 +12,8 @@ class Program
         Console.WriteLine("5 - Выполнить операцию *");
         Console.WriteLine("6 - Выполнить операцию /");
     }
+    static double Mul(double a, double b)
+    {
+        return a * b;
+    }
 }
