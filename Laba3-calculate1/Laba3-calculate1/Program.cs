@@ -30,5 +30,17 @@ class Program
     {
         return a - b;
     }
-
+    static double Mul(double a, double b)
+    {
+        return a * b;
+        static double Div(double a, double b)
+        {
+            if (b == 0)
+            {
+                Console.WriteLine("Ошибка: деление на ноль!");
+                return 0;
+            }
+            return a / b;
+        }
+    }
 }
