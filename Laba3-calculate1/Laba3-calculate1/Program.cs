@@ -22,4 +22,8 @@ class Program
         Console.Write("Введите B: ");
         return double.Parse(Console.ReadLine());
     }
+    static double Add(double a, double b)
+    {
+        return a + b;
+    }
 }
