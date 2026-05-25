@@ -17,4 +17,9 @@ class Program
         Console.Write("Введите A: ");
         return double.Parse(Console.ReadLine());
     }
+    static double InputB()
+    {
+        Console.Write("Введите B: ");
+        return double.Parse(Console.ReadLine());
+    }
 }
