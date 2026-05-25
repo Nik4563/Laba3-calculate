@@ -12,4 +12,13 @@ class Program
         Console.WriteLine("5 - Выполнить операцию *");
         Console.WriteLine("6 - Выполнить операцию /");
     }
+    static double Div(double a, double b)
+    {
+        if (b == 0)
+        {
+            Console.WriteLine("Ошибка: деление на ноль!");
+            return 0;
+        }
+        return a / b;
+    }
 }
