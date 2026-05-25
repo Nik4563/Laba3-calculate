@@ -26,4 +26,8 @@ class Program
     {
         return a + b;
     }
+    static double Sub(double a, double b)
+    {
+        return a - b;
+    }
 }
