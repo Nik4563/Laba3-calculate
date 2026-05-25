@@ -12,4 +12,9 @@ class Program
         Console.WriteLine("5 - Выполнить операцию *");
         Console.WriteLine("6 - Выполнить операцию /");
     }
+    static double InputA()
+    {
+        Console.Write("Введите A: ");
+        return double.Parse(Console.ReadLine());
+    }
 }
